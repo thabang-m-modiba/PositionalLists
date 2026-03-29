@@ -19,11 +19,17 @@
 ## The Positional List ADT
 * This is a collection of positions, each of which stores an element.
 * The accessor methods provided by the positional list ADT include the following for a list $L$:
-<code>
-  first()
-  last()
-  before(p)
-  after(p)
-  isEmpty()
-  size()
-</code>
+  - <code>first() // Returns the position of the first element of L</code>
+  - <code>last() // Returns the positions of the lat element of L</code>
+  - <code>before(p) // Returns the position of L immediately before position p</code>
+  - <code>after(p) // Returns the position of L immediately after position p</code>
+  - <code>isEmpty() // Returns true if listL does not contain any elements</code>
+  - <code>size() // Returns the number of elements in list L</code>
+* An error occurs if a position $p$, sent as a parementer to a method, is not a valid position for the list.
+* Updated Metods of a Postional List:
+  - <code>addFirst(e) // Inserts a new element e at the front of the list, returning the position of a new element</code>
+  - <code>addLast(e) // Inserts a new element e at the back of the list, returning the position of the new element</code>
+  - <code>addBefore(p, e) // Inserts a new element e in the list, just before position p, returning the position of the new element</code>
+  - <code>addAfter(p, e) /*/ Inserts a new element e in the list, just after the postion p, returing the position of the new element</code>
+  - <code>set(p, e) // Replaces the element at a position p with a new element e, returning the element formerly at position p</code>
+  - <code>remove(p) // Removes and returns the element at position p in the list, invalidating the position</code>
