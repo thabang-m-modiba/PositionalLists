@@ -19,3 +19,11 @@
 ## The Positional List ADT
 * This is a collection of positions, each of which stores an element.
 * The accessor methods provided by the positional list ADT include the following for a list $L$:
+<code>
+  first()
+  last()
+  before(p)
+  after(p)
+  isEmpty()
+  size()
+</code>
