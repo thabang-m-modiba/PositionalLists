@@ -22,5 +22,8 @@ public class Main {
 		list.printList();
 		
 	}
+	/**
+	 * Fix the code so it doesn't print the list three times lol
+	 */
 
 }
