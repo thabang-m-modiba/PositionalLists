@@ -247,7 +247,7 @@ public class LinkedPositionalList<E> implements PositionalList<E>{
 			Node<E> currentNode = header;
 			while(currentNode != null) {
 				System.out.print(currentNode.getElement() + ", ");
-			}
+				currentNode = currentNode.getNext();		}
 			System.out.println("END");
 		}
 	}
